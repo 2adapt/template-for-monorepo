@@ -5,7 +5,7 @@
 
 let
 	# channel status: https://status.nixos.org
-	stable-channel = "https://github.com/NixOS/nixpkgs/archive/refs/heads/nixos-24.11.tar.gz";
+	stable-channel = "https://github.com/NixOS/nixpkgs/archive/refs/heads/nixos-25.11.tar.gz";
 	#unstable-channel = "https://github.com/NixOS/nixpkgs/archive/refs/heads/nixos-unstable.tar.gz";
 
 	nixpkgs = fetchTarball stable-channel;
