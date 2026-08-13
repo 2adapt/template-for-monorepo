@@ -448,8 +448,7 @@ pnpm run dev
 
 ### 3.1 - Install and configure TailwindCSS@3 for the SvelteKit app
 
-NOTE: this is necessary only if we used `create-svelte` (that is, for svelte@4). The `sv` cli will use the new version of tailwindcss (v4)
-that doesn't need a configuration file
+NOTE: this is necessary only if we used `create-svelte` (that is, for svelte@4). The `sv` cli will use the new version of tailwindcss (v4) that doesn't need a configuration file. It will also install the typography and forms plugins.
 - https://tailwindcss.com/blog/tailwindcss-v4#first-party-vite-plugin
 - https://tailwindcss.com/blog/tailwindcss-v4#css-first-configuration
 
